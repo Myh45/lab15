@@ -7,12 +7,19 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 <meta http-equiv="content-type" content="text/HTML; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+    <link rel="stylesheet" href="slick-theme.css">
+    
+    <link rel="stylesheet" href="slick.css">
 </head>
 <body>
     <header>
         <div class="row">
         <h1 class="classJavaText col-md-8">
-            <a class="nav-link classJavaText" href="index.html">Java</a> 
+            <a class="nav-link classJavaText animate__animated animate__pulse" href="index.html">Java</a> 
             </h1>
             <div class="col-md-4">
        <nav class="navbar navbar-expand-lg navbar-light transit"  style="float: right">
@@ -41,25 +48,28 @@
             </div>
     </header>
     <div class="col headBody">
-        <div id="carouselExampleSlidesOnly" class="carousel slide center headBody1" data-ride="carousel" style="align-self: center">
-  <div class="carousel-inner">
-      <div class="carousel-item active">
-      <img class="classPadding" src="https://www.iconninja.com/files/582/558/416/java-icon.svg" style="height: 225px">
-          Java - мова програмування
-    </div>
-      <div id="cards" class="carousel-item">
-            <img src="images/history.png">
-            <img src="images/conception.png">
-            <img src="images/example.png">
-  </div>
-</div>
-    </div>
-        <div style="text-align: center" class="arrowScroll">
+        
+        <div class="col-md-12">
+        <section class="slider-area center" style="width: 80%">
+      
+            <div><img src="https://www.iconninja.com/files/582/558/416/java-icon.svg" ></div>
+            <div> <img src="images/history.png"></div>
+            
+            <div> <img src="https://www.iconninja.com/files/49/857/248/java-icon.svg"></div>
+            <div> <img src="images/example.png"></div>
+              <div><img src="https://lh3.googleusercontent.com/proxy/_nQw6czIkqGBm9WynT4yVx8XYmVa2Bce3VY94QScxd_LH4pAS7jk5KtCAaRa1xn1rIMx2aJj0HEPfS290-2UvmXXjjbUn_rMII5-4x_m2W6zOQ"></div>
+             
+              <div><img src="images/conception.png"></div>
+            
+        </section>
+            </div>
+        <div style="text-align: center" class="arrowScroll col-md-12">
         <a href="#bottomBody" class="arrowScroll">
             <img class="arrowScroll" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Arrow-down.svg/1200px-Arrow-down.svg.png" height="100px" width="100px">
             </a>
-            </div>
-    </div>
+            
+    </div> 
+      </div>
     
       
         <div class="row bottomBody">
@@ -75,6 +85,7 @@
   <div id="caption"></div>
 </div>
                 <div id="bottomBody" class="col-md-8" style="float: left">
+                    
                     <strong>Історія</strong><br>
                 Мова програмування Java зародилася в 1991 р. в лабораторіях компанії Sun Microsystems. Розробку проекту започаткував Джеймс Ґослінґ, сам проект мав назву «Green» (Зелений). Створення першої робочої версії, яка мала назву «Oak» (дуб), зайняло 18 місяців. Оскільки виявилось, що ім'я Oak уже використовувалось іншою фірмою, то в результаті тривалих суперечок навколо назви нової мови з-поміж ряду запропонованих було вибрано назву Java, у 1995 р. мову було офіційно перейменовано.
                 <p><br>
@@ -137,6 +148,16 @@ span.onclick = function() {
   modal.style.display = "none";
 }
     </script>
+    <script src="wow.js"></script>
+    <script src="script.js"></script>
+    <script src="slick.js"></script>
+    <script>
+    $('.slider-area').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll:1
+    });</script>
+    
 </body>
 
 
