@@ -26,7 +26,6 @@ html{
     font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #cards img{
-    padding-left: 120px;
     align-content: center;
     font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
@@ -68,7 +67,6 @@ html{
     font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background: url(images/body.png) no-repeat;
     background-size:cover;
-    padding-left: 120px;
     z-index: 0; 
 }
 .headBody1{
@@ -254,10 +252,7 @@ a:hover{
       width: 100%;
     }
 
-    .slick-prev:before,
-    .slick-next:before {
-      color: black;
-    }
+    
 
 
     .slick-slide {
